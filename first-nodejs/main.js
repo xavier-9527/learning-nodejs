@@ -1,5 +1,6 @@
 'use strict';
 
-const greet = require('./hello');
+const hello = require('./hello');
 
-greet('Mike');
+hello.greet('Mike');
+hello.hi("Mary");

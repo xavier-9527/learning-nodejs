@@ -10,7 +10,9 @@
 	"[javascript]": {
 		"editor.codeActionsOnSave": {
 			"source.fixAll.eslint": true
-		}
+		},
+		"editor.formatOnSave": true, // 开启保存后自动格式化
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[javascriptreact]": {
 		"editor.codeActionsOnSave": {

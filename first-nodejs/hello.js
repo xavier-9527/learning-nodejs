@@ -6,4 +6,12 @@ const greet = (name) => {
   console.log(`${s}, ${name} ！`)
 }
 
-module.exports = greet;
+const hi = (name) => {
+  console.log(`Hi, ${name}`);
+}
+
+
+module.exports = {
+  greet: greet,
+  hi: hi
+};
