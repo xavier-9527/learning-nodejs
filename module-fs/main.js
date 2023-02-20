@@ -16,19 +16,19 @@ const writeFileAsync = require('./write-text-file-async');
 
 const writeFileSync = require('./write-text-file-sync');
 
-writeFileAsync('-End-End-End-End-End-End-End-End');
-writeFileAsync('Sync Input~');
+// writeFileAsync('-End-End-End-End-End-End-End-End');
+// writeFileAsync('Sync Input~');
 
-writeFileSync('1231223123123---测试测试----输入成功！-----Input Successfully');
+// writeFileSync('1231223123123---测试测试----输入成功！-----Input Successfully');
 
-useStat();
+// useStat();
 
 useBuffer();
 
-readTextFile();
+// readTextFile();
 
-readTextFileSync();
+// readTextFileSync();
 
-readImgFile();
+// readImgFile();
 
-readImgFileSync();
+// readImgFileSync();
