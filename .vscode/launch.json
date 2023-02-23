@@ -77,6 +77,24 @@
       "outDir": null
     },
     {
+      "name": "Run Module http",
+      "type": "node",
+      "request": "launch", 
+      "program": "${workspaceRoot}/module-http/main.js",
+      "stopOnEntry": false,
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": null,
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy", "--use_strict"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "externalConsole": false,
+      "sourceMaps": false,
+      "outDir": null
+    },
+    {
       "name": "Attach",
       "port": 9229,
       "request": "attach",
