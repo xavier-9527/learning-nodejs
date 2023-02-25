@@ -7,7 +7,7 @@ const paths = () => {
   console.log('current directory: ', __dirname);
   // 获取当前代码文件路径:
   console.log('current file: ', __filename);
-  console.log('current workspace directory: ', process.cwd());
+  console.log('current workspace directory from order `process.cwd()`: ', process.cwd());
   // process.argv[1] 代码执行入口文件路径
   console.log('arguments: ', JSON.stringify(process.argv));
 

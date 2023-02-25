@@ -11,7 +11,7 @@ const http = require('http');
 
 const fileServer = () => {
   // const root = path.resolve(process.argv[2] || '.'); // 只能获取工作空间目录
-  const root = path.resolve(process.argv[2] || __dirname); // 从命令行参数获取root目录，默认是当前目录:
+  const root = path.resolve(process.argv[2] || __dirname); // 从命令行参数获取root目录，默认是当前代码文件所在目录:
   console.log('static server root dir: ', root);
   console.log('arguments: ', JSON.stringify(process.argv));
 

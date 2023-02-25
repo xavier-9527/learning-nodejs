@@ -10,7 +10,7 @@ urls();
 
 const paths = require('./paths');
 
-// paths();
+paths();
 
 // const fileServer = require('./file-server');
 
