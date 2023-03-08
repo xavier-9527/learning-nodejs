@@ -1,17 +1,17 @@
 'use strict';
 
-const hello = require('./hello');
+// const hello = require('./hello');
 
-hello();
+// hello();
 
-const urls = require('./urls');
+// const urls = require('./urls');
 
-urls();
+// urls();
 
-const paths = require('./paths');
+// const paths = require('./paths');
 
 // paths();
 
-// const fileServer = require('./file-server');
+const fileServer = require('./file-server');
 
-// fileServer();
+fileServer();
