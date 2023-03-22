@@ -113,6 +113,42 @@
       "outDir": null
     },
     {
+      "name": "Run Koa URL",
+      "type": "node",
+      "request": "launch", 
+      "program": "${workspaceRoot}/web-koa-url/app.js",
+      "stopOnEntry": false,
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": null,
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy", "--use_strict"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "externalConsole": false,
+      "sourceMaps": false,
+      "outDir": null
+    },
+    {
+      "name": "Run Koa URL 2",
+      "type": "node",
+      "request": "launch", 
+      "program": "${workspaceRoot}/web-koa-url2/app.js",
+      "stopOnEntry": false,
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": null,
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy", "--use_strict"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "externalConsole": false,
+      "sourceMaps": false,
+      "outDir": null
+    },
+    {
       "name": "Attach",
       "port": 9229,
       "request": "attach",
